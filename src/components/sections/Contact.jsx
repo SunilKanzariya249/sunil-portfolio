@@ -1,7 +1,7 @@
 import { useState } from "react";
 import RevealOnScroll from "../RevealOnScroll";
 
-import emailjs from 'emailjs-com' 
+import emailjs from '@emailjs/browser' 
 const Contact = () => {
     const[formData , setFormData]=useState({
         name:"",
@@ -30,7 +30,7 @@ const Contact = () => {
          justify-center items-center py-20"
     >
       <RevealOnScroll>
-        <div className="px-4 w-150 ">
+        <div className="px-4 w-full sm:w-[600px] ">
           <h2
             className="text-3xl font-bold
                  bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text 
@@ -38,7 +38,7 @@ const Contact = () => {
           >
             Get In Touch
           </h2>
-          <form onSubmit="handleSubmit" className="space-y-6">
+          <form onSubmit={handleSubmit} className="space-y-6">
             <div className="relative">
               <input
                 type="text"

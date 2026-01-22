@@ -1,6 +1,6 @@
 {
   "name": "portfolio-react",
-  "homepage":"https://SunilKanzariya249.github.io/sunil-portfolio",
+  "homepage": "https://SunilKanzariya249.github.io/sunil-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,10 +9,11 @@
     "build": "vite build",
     "lint": "eslint .",
     "preview": "vite preview",
-    "predeploy":"npm run build",
-    "deploy":"gh-pages -d dist"
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "emailjs-com": "^3.2.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0"

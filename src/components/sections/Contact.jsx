@@ -30,7 +30,7 @@ const Contact = () => {
          justify-center items-center py-20"
     >
       <RevealOnScroll>
-        <div className="px-4 w-full sm:w-[500px] ">
+        <div className="px-4 w-full mx-auto sm:w-[412px] ">
           <h2
             className="text-3xl font-bold
                  bg-linear-to-r from-blue-500 to-cyan-400 bg-clip-text 

@@ -42,7 +42,7 @@ const Projects = () => {
                 ensures efficient data handling and automatic UI updates,
                 providing a complete end-to-end shopping experience.
               </p>
-              <div>
+              <div className="w-full flex flex-wrap gap-2 mt-3 overflow-hidden">
                 {[
                   "JavaScript",
                   "React.js",
@@ -61,7 +61,7 @@ const Projects = () => {
                 ].map((tech, key) => (
                   <span
                     key={key}
-                    className="rounded-full
+                    className="rounded-full 
                      bg-blue-500/10 text-blue-500 py-1 px-3 
                       text-sm hover:bg-blue-500/20 
                        hover:shadow[0_2px_8px_rgba(59,130,246,0.2) 
@@ -94,7 +94,7 @@ const Projects = () => {
                 are handled using Tailwind CSS for a clean and responsive
                 design.
               </p>
-              <div>
+              <div className="w-full flex flex-wrap gap-2 mt-3 overflow-hidden">
                 {["React", "tailwindCSS", "CustomCSS"].map((tech, key) => (
                   <span
                     key={key}
@@ -135,7 +135,7 @@ const Projects = () => {
                 actions update the application state, automatically re-rendering
                 the UI to reflect real-time changes.
               </p>
-              <div>
+              <div className="w-full flex flex-wrap gap-2 mt-3 overflow-hidden">
                 {["JavaScript", "React.js", "Bootstrap", "HTML", "CSS"].map(
                   (tech, key) => (
                     <span
@@ -176,7 +176,7 @@ const Projects = () => {
                 blog, Real-time data handling using API requests ,Local backend
                 simulation using JSON Server
               </p>
-              <div>
+              <div className="w-full flex flex-wrap gap-2 mt-3 overflow-hidden">
                 {[
                   "ReactJS",
                   "JavaScript",
@@ -220,7 +220,7 @@ const Projects = () => {
                 external API. It fetches and displays new user data instantly
                 with a button click.
               </p>
-              <div>
+              <div className="w-full flex flex-wrap gap-2 mt-3 overflow-hidden">
                 {["ReactJS", "JavaScript", "Fetch API", "HTML", "CSS"].map((tech, key) => (
                   <span
                     key={key}
